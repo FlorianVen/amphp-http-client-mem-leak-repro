@@ -1,0 +1,15 @@
+{
+    "name": "florian/amphp-http-client-mem-leak-repro",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Florian\\AmphpHttpClientMemLeakRepro\\": "src/"
+        }
+    },
+    "require": {
+        "php": "8.1",
+        "amphp/amp": "^3.0",
+        "amphp/http": "v2.0.0-beta.3",
+        "amphp/http-client": "v5.0.0-beta.11"
+    }
+}
